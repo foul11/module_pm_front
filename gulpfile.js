@@ -41,10 +41,10 @@ const tasks = {
 		
 		browserSync.init({
 			cors: true,
-			https: {
+			// https: {
 				// cert: require('./config.cjs').server.CertFullChain,
 				// key: require('./config.cjs').server.CertPrivateKey,
-			},
+			// },
 			socket: {
 				// domain: require('./config.cjs').FrontendURL,
 			},
