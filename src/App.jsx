@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { SnackbarProvider, useSnackbar } from 'notistack';
-import { useDispatch, useSelector } from 'react-redux';
+import { SnackbarProvider } from 'notistack';
 
 import Index from './components/pages/Index';
 
